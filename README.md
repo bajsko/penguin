@@ -3,4 +3,4 @@
 ## Features
 
 * Supports all 35 opcodes
-* Should be able to run on almost every platform (only modify ```main.c```)
+* No platform-specific/graphics code except in ```main.c``` (Should be runnable on almost every platform)
