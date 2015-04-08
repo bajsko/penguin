@@ -1,5 +1,10 @@
 # Penguin Chip 8 Emulator
 
+![Penguin](https://dl.dropboxusercontent.com/u/60223805/penguin.png)
+
+Penguin is a very simple Chip 8 emulator/interpreter programmed in the C language.
+The goal with penguin is to support almost any platform smoothly.
+
 ## Planed Features
 
 * Support for all 35 opcodes
@@ -21,7 +26,7 @@ I made this emulator for learning/educational purposes only. I wanted to get mor
 
 Software is provided as is.
 
-###### Documentations/Help Used
+####### Documentations/Help Used
 
 * http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
 * http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#2.4
