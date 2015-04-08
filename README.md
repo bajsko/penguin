@@ -12,14 +12,18 @@
 #### Bugs/Unimplemented features
 
 **bug** Creates an infinite loop on some games (PONG, PONG2) (probably due to error in opcode(s))
+
 *unimplemented feature* No sound
 
 ##### Purpose
 
-I made this emulator for learning/educational purposes only. I wanted to get more familiar with emulation and the C language. Software is provided as is.
+I made this emulator for learning/educational purposes only. I wanted to get more familiar with emulation and the C language. 
+
+Software is provided as is.
 
 ###### Documentations/Help Used
 
 * http://www.multigesture.net/articles/how-to-write-an-emulator-chip-8-interpreter/
 * http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#2.4
+
 *Thanks a ton to you guys!*
