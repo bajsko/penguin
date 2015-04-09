@@ -422,7 +422,7 @@ void OPB(Chip8 *cpu)
 }
 void OPC(Chip8 *cpu)
 {
-    ushort x = cpu->opcode & 0x0F00 >> 8;
+    ushort x = (cpu->opcode & 0x0F00) >> 8;
     ushort constant = cpu->opcode & 0x00FF;
     
     cpu->V[x] = (rand() % 0xFF) & constant;
@@ -455,7 +455,7 @@ void OPD(Chip8 *cpu)
 }
 void OPE(Chip8 *cpu)
 {
-    ushort x = cpu->opcode & 0x0F00 >> 8;
+    ushort x = (cpu->opcode & 0x0F00) >> 8;
     
     switch (cpu->opcode & 0x000F) {
         case 0x000E:
@@ -480,7 +480,7 @@ void OPE(Chip8 *cpu)
 }
 void OPF(Chip8 *cpu)
 {
-    ushort x = cpu->opcode & 0x0F00 >> 8;
+    ushort x = (cpu->opcode & 0x0F00) >> 8;
     
     switch (cpu->opcode & 0x00FF) {
         case 0x0007:
