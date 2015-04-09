@@ -14,9 +14,11 @@ The goal with penguin is to support almost any platform smoothly.
 
 * Supports almost every opcode perfectly
 
+[!Penguin Showcase](https://dl.dropboxusercontent.com/u/60223805/showcase.png)
+
 #### Bugs/Unimplemented features
 
-**bug** Creates an infinite loop on some games (PONG, PONG2) (probably due to error in opcode(s))
+**bug** Creates an infinite loop on some games (PONG, PONG2) (probably due to error in opcode(s)) **FIXED!**
 
 *unimplemented feature* No sound
 
