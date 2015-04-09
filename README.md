@@ -14,7 +14,7 @@ The goal with penguin is to support almost any platform smoothly.
 
 * Supports almost every opcode perfectly
 
-[!Penguin Showcase](https://dl.dropboxusercontent.com/u/60223805/showcase.png)
+![Penguin Showcase](https://dl.dropboxusercontent.com/u/60223805/showcase.png)
 
 #### Bugs/Unimplemented features
 
