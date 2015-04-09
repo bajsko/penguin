@@ -59,7 +59,7 @@ typedef struct Chip8
     //we good?
     byte status;
     
-    int drawFlag;
+    byte drawFlag;
     
 } Chip8;
 
