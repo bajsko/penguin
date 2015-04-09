@@ -19,7 +19,7 @@ Chip8 *cpu;
 
 int main(int argc, const char * argv[])
 {
-    cpu = loadRom("/Users/klahen/Documents/chip8/chip8/pong");
+    cpu = loadRom("pong");
     
     if(cpu == 0)
         return 1;
